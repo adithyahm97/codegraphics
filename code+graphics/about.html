@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+</head>
+<style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        height: auto;
+        width: auto;
+    }
+
+    .header {
+        height: auto;
+        width: auto;
+        text-align: center;
+        padding: 1.5rem 10px 1.5rem 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding: 1.5rem;
+        color: darkkhaki;
+        border: 1px solid black;
+        border-radius: 5rem;
+    }
+
+    .main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main .right_side{
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 5rem;
+        
+    }
+
+    .main .left_side{
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 5rem;
+        
+    }
+
+    img{
+        height: 250px;
+        width: 250px;
+        transform: rotate(90deg);
+        padding: 15px;
+    }
+
+    h2{
+        color: red;
+        padding: 1.5rem;
+        /*background: honeydew;*/
+        height: fit-content;
+    }
+
+    p{
+        height: fit-content;
+        padding: 1.5rem;
+        color: green;
+        /*background: black;*/
+        margin: 0px 50px 50px 50px;
+    }
+
+
+</style>
+
+<body>
+    <div class="header">
+        <h1>About me</h1>
+    </div>
+    <div class="main">
+        <div class="left_side">
+            <h2>Welcome to my website</h2>
+            <p>Hello, I'm Adithya. I'm from mangalore. I'm an engineer by degree. My area of interests are Front-end evelopment, Ui designing, and Android.</p>
+        </div>
+        <div class="right_side">
+            <img src="image/about.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
